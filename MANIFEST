@@ -1,0 +1,21 @@
+Build.PL
+Changes
+lib/Fey/Object/Mock/Schema.pm
+lib/Fey/Object/Mock/Table.pm
+lib/Fey/ORM/Mock.pm
+lib/Fey/ORM/Mock/Action.pm
+lib/Fey/ORM/Mock/Action/Delete.pm
+lib/Fey/ORM/Mock/Action/Insert.pm
+lib/Fey/ORM/Mock/Action/Update.pm
+lib/Fey/ORM/Mock/Recorder.pm
+lib/Fey/ORM/Mock/Seeder.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/Action.t
+t/kwalitee.t
+t/Mock.t
+t/pod-coverage.t
+t/pod.t
+SIGNATURE    Added here by Module::Build

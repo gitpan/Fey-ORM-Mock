@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 4307ba45d39ad71d4a6133b990de144dbfc85f1a Build.PL
+SHA1 b07a836e87aa25e1982e15500d94380750da3c93 Changes
+SHA1 dddc34ca715062492497156ee1a257f10f052a24 MANIFEST
+SHA1 11818bf782d48bd47a079af150a9fbfa56e96b98 META.yml
+SHA1 6f92f99db464ab415b16ffb13b2fbc67c69cab56 Makefile.PL
+SHA1 a39727e07a7344e473c1f120711d90a89ca70800 README
+SHA1 e12ca05770a2bc59179cf46cee67bdda2dc6f47d lib/Fey/ORM/Mock.pm
+SHA1 18c58371b280c1bc075d80c442b24dcb615ba7c9 lib/Fey/ORM/Mock/Action.pm
+SHA1 394a96cfa34bfce1638437d1f359a9c43f97a42f lib/Fey/ORM/Mock/Action/Delete.pm
+SHA1 6a9df21f6c2ee8341a8b385fd8b33e329aab562d lib/Fey/ORM/Mock/Action/Insert.pm
+SHA1 c4c0299e97656fad9f4ccd9b713d5d2ce7c476aa lib/Fey/ORM/Mock/Action/Update.pm
+SHA1 995bca1de50d8212087c8e570f46ee910e90ca18 lib/Fey/ORM/Mock/Recorder.pm
+SHA1 d1597ec71713e21a2c449eba04132be60f3a87d1 lib/Fey/ORM/Mock/Seeder.pm
+SHA1 5898d2d7aa25407ca16e31156fbbddeca48c156e lib/Fey/Object/Mock/Schema.pm
+SHA1 8146d5c0722f75f92c699a5cfd324fd86880d271 lib/Fey/Object/Mock/Table.pm
+SHA1 f7de704bd7a4899ef80a1e95b40547bee5fe65e3 t/Action.t
+SHA1 2fe270669d194a81bee75ecd9b6f222fb44de98c t/Mock.t
+SHA1 9ade2293d6e5ea77d94532132c89cd205ea85ed7 t/kwalitee.t
+SHA1 ed0f2ea05a91a3cbd5e51b232d49d5afd646609d t/pod-coverage.t
+SHA1 cec881e89926d320475f9de2b7fad02c2169f510 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkkVyiEACgkQ3Or3ZzQuifNf1wCeO+I84Jpy3ORlwhS73RrnxRl7
+ElEAn1FuGuVUjNYGaxs1jmPQDYRYyugG
+=y9B2
+-----END PGP SIGNATURE-----
