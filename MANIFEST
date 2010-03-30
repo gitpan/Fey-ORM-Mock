@@ -14,8 +14,9 @@ MANIFEST			This list of files
 META.yml
 README
 t/Action.t
-t/kwalitee.t
 t/Mock.t
-t/pod-coverage.t
-t/pod.t
+xt/kwalitee.t
+xt/pod-coverage.t
+xt/pod-spell.t
+xt/pod.t
 SIGNATURE    Added here by Module::Build
