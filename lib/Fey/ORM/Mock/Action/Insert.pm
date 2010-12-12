@@ -1,4 +1,7 @@
 package Fey::ORM::Mock::Action::Insert;
+BEGIN {
+  $Fey::ORM::Mock::Action::Insert::VERSION = '0.05';
+}
 
 use strict;
 use warnings;
@@ -20,13 +23,19 @@ __PACKAGE__->meta()->make_immutable();
 
 1;
 
-__END__
+# ABSTRACT: A record of an insert
+
+
 
 =pod
 
 =head1 NAME
 
 Fey::ORM::Mock::Action::Insert - A record of an insert
+
+=head1 VERSION
+
+version 0.05
 
 =head1 DESCRIPTION
 
@@ -45,13 +54,18 @@ include objects passed to C<insert()>
 
 =head1 AUTHOR
 
-Dave Rolsky, C<< <autarch@urth.org> >>
+Dave Rolsky <autarch@urth.org>
 
-=head1 COPYRIGHT & LICENSE
+=head1 COPYRIGHT AND LICENSE
 
-Copyright 2008 Dave Rolsky, All Rights Reserved.
+This software is Copyright (c) 2010 by Dave Rolsky.
 
-This program is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This is free software, licensed under:
+
+  The Artistic License 2.0
 
 =cut
+
+
+__END__
+

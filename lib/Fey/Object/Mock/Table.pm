@@ -1,4 +1,7 @@
 package Fey::Object::Mock::Table;
+BEGIN {
+  $Fey::Object::Mock::Table::VERSION = '0.05';
+}
 
 use strict;
 use warnings;
@@ -112,13 +115,19 @@ __PACKAGE__->meta()->make_immutable( inline_constructor => 0 );
 
 1;
 
-__END__
+# ABSTRACT: Mock schema class subclass of Fey::Object::Table
+
+
 
 =pod
 
 =head1 NAME
 
 Fey::Object::Mock::Table - Mock schema class subclass of Fey::Object::Table
+
+=head1 VERSION
+
+version 0.05
 
 =head1 DESCRIPTION
 
@@ -145,13 +154,18 @@ Sets the L<Fey::ORM::Mock::Recorder> object associated with the table.
 
 =head1 AUTHOR
 
-Dave Rolsky, C<< <autarch@urth.org> >>
+Dave Rolsky <autarch@urth.org>
 
-=head1 COPYRIGHT & LICENSE
+=head1 COPYRIGHT AND LICENSE
 
-Copyright 2008 Dave Rolsky, All Rights Reserved.
+This software is Copyright (c) 2010 by Dave Rolsky.
 
-This program is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This is free software, licensed under:
+
+  The Artistic License 2.0
 
 =cut
+
+
+__END__
+

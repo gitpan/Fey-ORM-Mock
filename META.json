@@ -1,0 +1,54 @@
+{
+   "abstract" : "Mock Fey::ORM based classes so you can test without a DBMS",
+   "author" : [
+      "Dave Rolsky <autarch@urth.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.101670",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Fey-ORM-Mock",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::MOP" : "0.69",
+            "DBD::Mock" : 0,
+            "Fey::DBIManager" : "0.08",
+            "Fey::ORM" : "0.33",
+            "Moose" : "0.90",
+            "MooseX::Params::Validate" : 0,
+            "MooseX::StrictConstructor" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Fey::Test" : "0.05",
+            "Test::More" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-fey-orm-mock@rt.cpan.org",
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Fey-ORM-Mock"
+      },
+      "repository" : {
+         "type" : "hg",
+         "url" : "http://hg.urth.org/hg/Fey-ORM-Mock",
+         "web" : "http://hg.urth.org/hg/Fey-ORM-Mock"
+      }
+   },
+   "version" : "0.05"
+}
+

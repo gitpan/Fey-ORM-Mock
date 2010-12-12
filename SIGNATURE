@@ -14,31 +14,35 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 540baef1f2800490149c8eab87950d9edd082cd4 Build.PL
-SHA1 bf0514031acc77af82fc7720c6a1a2552cd1a518 Changes
-SHA1 77f03d8f50677211ef1578890666d9368a1b3061 MANIFEST
-SHA1 afc4f7f6a6e17fb0af02b05ae1a76edb785c974f META.yml
-SHA1 587d966b85ca5ff9b8f682ef74af598b83ffe52d Makefile.PL
-SHA1 a39727e07a7344e473c1f120711d90a89ca70800 README
-SHA1 fdb31941b59701b3a77b33f8cc5579844230e1ca lib/Fey/ORM/Mock.pm
-SHA1 1327185a2bcc42ccaabf586d2ecdce9411dc0007 lib/Fey/ORM/Mock/Action.pm
-SHA1 c8cac3cd20e5ea86c0b34dad793618ee8750132f lib/Fey/ORM/Mock/Action/Delete.pm
-SHA1 e23b12809bb7d6ee48a10e31a6b3192b3c05ab15 lib/Fey/ORM/Mock/Action/Insert.pm
-SHA1 f304c8f0ee3ec00c60d176db25b412d69af997d3 lib/Fey/ORM/Mock/Action/Update.pm
-SHA1 0d3e695004baf5b5d49c3dc6e5a2ec69d7fa0acd lib/Fey/ORM/Mock/Recorder.pm
-SHA1 f57c299c188d125316e2bd8935347a18d80250a4 lib/Fey/ORM/Mock/Seeder.pm
-SHA1 3cc3f8c9409171aeb971c0305a15bc37ec250eaf lib/Fey/Object/Mock/Schema.pm
-SHA1 938f9fd4399c6fb5169f28eaf439d70aa38efb4f lib/Fey/Object/Mock/Table.pm
+SHA1 ffe2753b597b329363d9cb7302fb86713e387c97 Changes
+SHA1 9bf221b0187527c8c1e5f02914503d1439b01c96 INSTALL
+SHA1 23c628b4a8a36738405ccdacaeb912d2e727b4c0 LICENSE
+SHA1 3fb959c67790e8eeec770993defb76783c20fcfe MANIFEST
+SHA1 cbf7ebac13622b45099390bcfee9e2660acdf5b6 META.json
+SHA1 b93dec4eafafa33ee53c95eeda9826b6fd61e186 META.yml
+SHA1 3fd7f13a12cd352e913b6dcf591ed69907cdc109 Makefile.PL
+SHA1 209a6ab94e078e999542edeb114466afb86dd67b README
+SHA1 747b8f755d4dc9c5688882d2510d680c53ae7c6b dist.ini
+SHA1 204a8f12b65de9d21b0a5e15569c4dbd5f1c6b73 lib/Fey/ORM/Mock.pm
+SHA1 58fd3eacd46bbbe845ea8ad3e80c267591ca915c lib/Fey/ORM/Mock/Action.pm
+SHA1 384d4d3748f700225df2e612b7d7e9f7ac3747b0 lib/Fey/ORM/Mock/Action/Delete.pm
+SHA1 7b8f5a0657ba11f25b514777ea29af91f5563c8a lib/Fey/ORM/Mock/Action/Insert.pm
+SHA1 b2544d5a98b5ab78aa37d42c92a2d2a2dca1da94 lib/Fey/ORM/Mock/Action/Update.pm
+SHA1 ead479c19add8ffb225a7774f354d1bc22693a73 lib/Fey/ORM/Mock/Recorder.pm
+SHA1 c5d737caff99e704f5bf5db51c699a85d78766df lib/Fey/ORM/Mock/Seeder.pm
+SHA1 78750dfe291cfbab8d6a7232a90ce4486bd74e81 lib/Fey/Object/Mock/Schema.pm
+SHA1 70f7ec817398511543a1d6366e7ac4a640a2172e lib/Fey/Object/Mock/Table.pm
 SHA1 3370f77be35c185b10195e553cee2ced580afa6c t/Action.t
-SHA1 d9a8e75306d6d036524508c3d003d17f3f7a900a t/Mock.t
-SHA1 09190c9e56f8c73824b2fd32dc650d5530b63c68 xt/kwalitee.t
-SHA1 7230336c4da4678c4c5cda1e318f1512e684f585 xt/pod-coverage.t
-SHA1 18d92e9b7bbff96cad5c9adb0aabdc899991b0ff xt/pod-spell.t
-SHA1 9bb24d755c9e2fbf5d9b7db34df15637ccd8e3f6 xt/pod.t
+SHA1 a654ed85ede9ac19d80455ae7c72072e68860599 t/Mock.t
+SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
+SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
+SHA1 4a668ba81024ae953338409158e015821761bd82 t/release-pod-coverage.t
+SHA1 0caabd2fbef16f96adcb0a7b7ea261dee9758dd0 t/release-pod-spell.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkuxbBIACgkQIgMCsV8qvRJ4iQCaAgFs8VthsyXgILJp7EHpetRM
-C5cAn1xXzNa8Uktw0BkRZPMgUP6v7tZq
-=/REw
+iEYEARECAAYFAk0E+NQACgkQIgMCsV8qvRJpiwCfWN8Chhjc0yqIXYpKNxYEGAdd
+YuEAnjsMZMsQJuWiYAmpdq15zjVH4rbb
+=G0Kw
 -----END PGP SIGNATURE-----

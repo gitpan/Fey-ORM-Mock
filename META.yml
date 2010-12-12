@@ -1,49 +1,28 @@
 ---
 abstract: 'Mock Fey::ORM based classes so you can test without a DBMS'
 author:
-  - 'Dave Rolsky, C<< <autarch@urth.org> >>'
+  - 'Dave Rolsky <autarch@urth.org>'
 build_requires:
   Fey::Test: 0.05
   Test::More: 0
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
-license: perl
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.101670'
+license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Fey-ORM-Mock
-provides:
-  Fey::ORM::Mock:
-    file: lib/Fey/ORM/Mock.pm
-    version: 0.04
-  Fey::ORM::Mock::Action:
-    file: lib/Fey/ORM/Mock/Action.pm
-  Fey::ORM::Mock::Action::Delete:
-    file: lib/Fey/ORM/Mock/Action/Delete.pm
-  Fey::ORM::Mock::Action::Insert:
-    file: lib/Fey/ORM/Mock/Action/Insert.pm
-  Fey::ORM::Mock::Action::Update:
-    file: lib/Fey/ORM/Mock/Action/Update.pm
-  Fey::ORM::Mock::Recorder:
-    file: lib/Fey/ORM/Mock/Recorder.pm
-  Fey::ORM::Mock::Seeder:
-    file: lib/Fey/ORM/Mock/Seeder.pm
-  Fey::Object::Mock::Schema:
-    file: lib/Fey/Object/Mock/Schema.pm
-  Fey::Object::Mock::Table:
-    file: lib/Fey/Object/Mock/Table.pm
 requires:
   Class::MOP: 0.69
   DBD::Mock: 0
   Fey::DBIManager: 0.08
-  Fey::ORM: 0.12
+  Fey::ORM: 0.33
   Moose: 0.90
   MooseX::Params::Validate: 0
   MooseX::StrictConstructor: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Fey-ORM-Mock
-  homepage: http://www.fey-project.org/
-  license: http://dev.perl.org/licenses/
   repository: http://hg.urth.org/hg/Fey-ORM-Mock
-version: 0.04
+version: 0.05
