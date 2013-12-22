@@ -1,6 +1,6 @@
 package Fey::ORM::Mock::Action::Update;
-BEGIN {
-  $Fey::ORM::Mock::Action::Update::VERSION = '0.05';
+{
+  $Fey::ORM::Mock::Action::Update::VERSION = '0.06';
 }
 
 use strict;
@@ -31,7 +31,7 @@ __PACKAGE__->meta()->make_immutable();
 
 # ABSTRACT: A record of an update
 
-
+__END__
 
 =pod
 
@@ -41,7 +41,7 @@ Fey::ORM::Mock::Action::Update - A record of an update
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 DESCRIPTION
 
@@ -73,10 +73,6 @@ This software is Copyright (c) 2010 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
-
-
-__END__
-

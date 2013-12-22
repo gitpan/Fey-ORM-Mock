@@ -6,7 +6,6 @@ META.json
 META.yml
 Makefile.PL
 README
-SIGNATURE
 dist.ini
 lib/Fey/ORM/Mock.pm
 lib/Fey/ORM/Mock/Action.pm

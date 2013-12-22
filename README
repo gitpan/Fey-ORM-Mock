@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Fey-ORM-Mock,
-version 0.05:
+version 0.06:
 
   Mock Fey::ORM based classes so you can test without a DBMS
 
@@ -9,6 +9,6 @@ This software is Copyright (c) 2010 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 

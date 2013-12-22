@@ -1,12 +1,12 @@
 package Fey::ORM::Mock;
-BEGIN {
-  $Fey::ORM::Mock::VERSION = '0.05';
+{
+  $Fey::ORM::Mock::VERSION = '0.06';
 }
 
 use strict;
 use warnings;
 
-use Class::MOP;
+use Class::Load qw( load_class );
 use DBD::Mock;
 use Fey::DBIManager;
 use Fey::Object::Mock::Schema;
@@ -56,7 +56,7 @@ sub _replace_superclass {
     my $class      = shift;
     my $superclass = shift;
 
-    Class::MOP::load_class($class);
+    load_class($class);
 
     my $meta = $class->meta();
 
@@ -141,7 +141,7 @@ sub _mock_dbi {
 
 # ABSTRACT: Mock Fey::ORM based classes so you can test without a DBMS
 
-
+__END__
 
 =pod
 
@@ -151,7 +151,7 @@ Fey::ORM::Mock - Mock Fey::ORM based classes so you can test without a DBMS
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 SYNOPSIS
 
@@ -238,10 +238,6 @@ This software is Copyright (c) 2010 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
-
-
-__END__
-
